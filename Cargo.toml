@@ -1,7 +1,7 @@
 [package]
 name = "leftpad-str"
 authors = ["abs0luty"]
-version = "6.6.6"
+version = "6.6.6.6"
 edition = "2021"
 license = "MIT"
 description = "Obviously the best crate for the Rust programming language. The crate serves the only goal of implementing `leftpad` function."
