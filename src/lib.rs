@@ -1,4 +1,4 @@
-//! # `leftpad` crate.
+//! # `leftpad-str` crate.
 //! Obviously the best crate for the Rust programming language. The crate serves the only goal of implementing `leftpad` function:
 //!
 //! ```rs
@@ -80,6 +80,7 @@
 /// assert_eq!(leftpad("hello", 8, '*'), "***hello");
 /// assert_eq!(leftpad("rust", 6, ' '), "  rust");
 /// ```
+#[must_use]
 pub fn leftpad(input: &str, width: usize, padding_char: char) -> String {
     input
         .chars()
