@@ -2,7 +2,7 @@
 <img width="30%" src="./logo.png" />
 </p>
 
-# `leftpad` crate.
+# `leftpad-str` crate.
 
 Obviously the best crate for the Rust programming language. The crate serves the only goal of implementing `leftpad` function:
 
